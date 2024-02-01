@@ -1,0 +1,9 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+
+.site-footer{
+    background-color: v.$rosa;
+    padding: 2rem;
+    text-align: center;
+    color: v.$blanco;
+}

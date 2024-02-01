@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/scss/app.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="contenedor contenido-header">
+        <h1 >Festival de rock</h1>
+        <nav class="navegacion-principal">
+            <a href="#lineup">Line up</a>
+            <a href="#galeria">Galería</a>
+            <a href="#entradas">Entradas</a>
+        </nav>
+    </div>
+
+  </header>
+
+  <div class="video">
+    <div class="overlay">
+        <div class="contenedor contenido-video">
+            <h2>Rock Festival</h2>
+            <p>Julio 2022, Chanco</p>
+        </div>
+    </div>
+    
+    <video autoplay muted loop  class="video-header" >
+        <source src="video/concierto.mp4" type="video/mp4" >
+        <source src="resources/myvideo.webm" type="video/webm">
+        <track kind="captions" label="Spanish" srclang="es" src="subtitles/concierto-es.vtt" default>
+      </video>
+    
+  </div>
+
+  <section class="contenedor sobre-festival">
+    <div class="imagen">
+      <img src="img/imagen_vocalista.jpg" alt="Imagen-vocalista-festival">
+    </div>
+    <div class="contenido-festival">
+      <h2>Rock festival en Chanco</h2>
+      <p class="fecha">Julio 2023, Chanco</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+         Odio ratione odit id amet temporibus nesciunt excepturi 
+         facilis iusto ipsum quaerat?</p>
+
+    </div>
+
+  </section>
+
+  <section class="lineUp" id="lineup">
+<h3 class="dia"> Line Up  </h3>
+
+<p class="lineUp dia"> Viernes 21 </p>
+
+<div class="escenario-contenedor contenedor">
+  <div class="escenario rock bg-amarillo">
+    <p class="nombre-escenario"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+      <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"/>
+      <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z"/>
+      <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"/>
+    </svg> Escenario Rock</p>
+    <ul class="calendario">
+      <li>
+        24:00 | <span>Deadmau5</span>
+    </li>
+    <li>
+        22:00 | <span>Tïesto</span>
+    </li>
+    <li>
+        20:00 | <span>Hardwell</span>
+    </li>
+    <li>
+        19:00 | <span>Dash Berlin</span>
+    </li>
+    
+    <li>
+        18:00 | <span>Fedde Legrand</span>
+    </li>
+    <li>
+        17:00 | <span>Audien</span>
+    </li></ul>
+  </div>  <!--ESCENARIO-->
+  <div class="escenario edm bg-verde">
+    <p class="nombre-escenario"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-player" viewBox="0 0 16 16">
+      <path d="M4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zm1 0v3h6V3zm3 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+      <path d="M11 11a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-3 2a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
+      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+    </svg> Escenario EDM</p>
+    <ul class="calendario">
+      <li>
+        24:00 | <span>Metallica</span>
+    </li>
+    <li>
+        22:00 | <span>Pearl Jam</span>
+    </li>
+    <li>
+        20:00 | <span>KoRn</span>
+    </li>
+    <li>
+        19:00 | <span>Muse</span>
+    </li>
+    <li>
+        18:00 | <span>Breaking Benjamin</span>
+    </li>
+    <li>
+        17:00 | <span>30 Seconds to Mars</span>
+    </li>
+    </ul>
+  </div>  <!--ESCENARIO-->
+  
+</div> <!--FINAL ESCENARIOS-->
+<p class="lineUp dia"> Sabado 22</p>
+
+<div class="escenario-contenedor contenedor">
+  <div class="escenario rock bg-verde">
+    <p class="nombre-escenario"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+      <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"/>
+      <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z"/>
+      <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"/>
+    </svg> Escenario Rock</p>
+    <ul class="calendario">
+      <li>
+        24:00 | <span>Deadmau5</span>
+    </li>
+    <li>
+        22:00 | <span>Tïesto</span>
+    </li>
+    <li>
+        20:00 | <span>Hardwell</span>
+    </li>
+    <li>
+        19:00 | <span>Dash Berlin</span>
+    </li>
+    
+    <li>
+        18:00 | <span>Fedde Legrand</span>
+    </li>
+    <li>
+        17:00 | <span>Audien</span>
+    </li> </ul>
+  </div>  <!--ESCENARIO-->
+  <div class="escenario edm bg-amarillo">
+    <p class="nombre-escenario"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-player" viewBox="0 0 16 16">
+      <path d="M4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zm1 0v3h6V3zm3 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+      <path d="M11 11a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-3 2a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
+      <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+    </svg> Escenario EDM</p>
+    <ul class="calendario">
+      <li>
+        24:00 | <span>Deadmau5</span>
+    </li>
+    <li>
+        22:00 | <span>Tïesto</span>
+    </li>
+    <li>
+        20:00 | <span>Hardwell</span>
+    </li>
+    <li>
+        19:00 | <span>Dash Berlin</span>
+    </li>
+    
+    <li>
+        18:00 | <span>Fedde Legrand</span>
+    </li>
+    <li>
+        17:00 | <span>Audien</span>
+    </li>
+    </ul>
+  </div>  <!--ESCENARIO-->
+  
+</div> <!--FINAL ESCENARIOS-->
+  </section>
+
+  <section class="galeria contenedor" id="galeria">
+    <h3>Galería</h3>
+    <ul class="galeria-imagenes"></ul>
+  </section>
+  
+
+  <section class="pase bg-verde" id="entradas">
+    <h3>Entradas</h3>
+
+    <div class="contenedor contenedor-pase">
+
+      <div class="basico pase">
+        <p>Pase 1 día</p>
+        <header class="pase-header">Incluye</header>
+        <div class="pase-cuerpo">
+          <ul>
+            <li>Accesos a ambos escenarios</li>
+            <li>Comida y bebida</li>
+          </ul>
+        </div>
+        <footer class="pase-footer">$10.000</footer>
+      </div>
+
+
+      <div class="premium pase">
+        <p>Pase 2 día</p>
+        <header class="pase-header">Incluye</header>
+        <div class="pase-cuerpo">
+          <ul>
+            <li>Accesos a ambos escenarios</li>
+            <li>Comida y bebida</li>
+            <li>Polera evento</li>
+            <li>Acceso bip</li>
+          </ul>
+        </div>
+        <footer class="pase-footer">20.000</footer>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="site-footer">Derechos de la pagina - disponible </footer>
+
+ <script src="build/js/app.js"></script>
+</body>
+</html>

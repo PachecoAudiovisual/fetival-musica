@@ -1,0 +1,73 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+
+.pase{
+    margin: 0;
+    padding:1rem ;
+
+    .contenedor-pase{
+        display: grid;
+        grid-template-columns: repeat(auto,auto);
+    }
+   
+   
+
+    h3{
+        text-align: center;
+        color: v.$blanco;
+        padding-top: 3rem;
+       
+    }
+    p{
+        color: v.$blanco;
+        text-align: center;
+    }
+
+    @include m.telefono {
+        .contenedor-pase{
+            display: grid;
+            grid-template-columns: repeat(2,2fr);
+        }
+        
+    }
+
+    ul{
+        
+        margin: 0;
+        padding: 3rem;
+        
+    }
+  
+li{
+    color: v.$negro;
+    list-style: none;
+    padding: 10px ;
+    margin: 0;
+    padding: 1rem;
+    
+    
+    
+}
+}
+
+.pase{
+    
+
+    .pase-header{
+        background-color: v.$rosa;
+        text-align: center;
+        padding: 2rem;
+        color: v.$blanco;
+        font-weight: bold;
+    }
+    .pase-cuerpo{
+        background-color: v.$blanco;
+    }
+    .pase-footer{
+        background-color: v.$amarillo;
+        text-align: center;
+        font-weight: bold;
+        padding: 1rem;
+    }
+
+}

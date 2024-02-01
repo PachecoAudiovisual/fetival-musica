@@ -1,0 +1,23 @@
+@use 'variables' as v;
+
+@mixin telefono {
+    @media (min-width: 480px){
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: 768px){
+        @content;
+    }
+}
+@mixin escritorio {
+    @media (min-width: 962px){
+        @content;
+    }
+}
+@mixin escritorioxl {
+    @media (min-width: 1200px){
+        @content;
+    }
+}

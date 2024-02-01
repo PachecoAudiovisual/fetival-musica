@@ -1,0 +1,56 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+
+
+
+.video {
+   position: relative;
+   max-height: 65rem;
+   min-height: 60rem;
+   overflow: hidden;
+
+    .overlay{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: rgb(34,193,195);
+        background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,0.16992734593837533) 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center; //alinea verticalment
+    }
+    video{
+        width: auto;
+        display: block;
+      
+    }
+   
+}
+
+.contenido-video{
+    z-index: 10;
+    
+    h2{
+        color: v.$blanco;
+        font-size: 7rem;
+        margin: 0;
+
+    }
+
+    p{
+        background-color: v.$rosa;
+        width: 30rem;
+        display: inline-block;
+        padding: 1rem 2rem;
+        color: v.$blanco;
+        font-weight: 700;
+        font-size: 2.4rem;
+        margin: 0;
+        @include m.telefono {
+            width: 48rem;
+        }
+    
+    }
+
+
+}

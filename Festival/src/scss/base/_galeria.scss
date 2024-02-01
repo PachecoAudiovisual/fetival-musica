@@ -1,0 +1,23 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+
+.galeria{
+    padding: 5rem 0;;
+    h3{
+        text-align: center;
+    }
+}
+.galeria-imagenes{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    margin: 0;
+    padding: 0;
+    
+  
+
+    @include m.telefono {
+        display: grid;
+        grid-template-columns: repeat(6,2fr);
+        gap:1px
+    } 
+}
